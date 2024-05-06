@@ -2,13 +2,141 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- PON UN FAVICON!!! -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <link rel="icon" type="image/svg+xml" href="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CAMBIA EL TITLE!!! -->
-    <title>Vite Template</title>
+    <title>Social media dashboard with theme switcher</title>
   </head>
   <body>
+    <header class="header">
+      <article class="info-container">
+        <h2 class="title--xl">Social Media Dashboard</h2>
+        <h3 class="title-m-bold">Total Followers: 23,004</h3>
+      </article>
+      <div class="divider"></div>
+      <div class="dark-mode-container">
+        <h3 class="title-m-bold">Dark Mode</h3>
+        <div class="toogle"></div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="cards">
+        <div class="card-facebook">
+          <div class="social-container">
+            <img src="./assets/images/icon-facebook.svg" alt="icon-facebook" />
+            <span class="account">@nathanf</span>
+          </div>
+          <div class="data-container">
+            <h1 class="title--xxl">1987</h1>
+            <h3 class="title-m-regular">FOLLOWERS</h3>
+            <div class="staditics-container">
+              <img src="./assets/images/icon-up.svg" alt="icon-up" />
+              <span class="text-s">12 Today</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card--twitter">
+          <div class="social-container">
+            <img src="./assets/images/icon-twitter.svg" alt="icon-twitter" />
+            <span class="account">@nathanf</span>
+          </div>
+          <div class="data-container">
+            <h1 class="title--xl">1044</h1>
+            <h3 class="title-m-regular">FOLLOWERS</h3>
+            <div class="staditics-container">
+              <img src="./assets/images/icon-up.svg" alt="icon-up" />
+              <span class="text-s">99 Today</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card--instagram">
+          <div class="social-container">
+            <img
+              src="./assets/images/icon-instagram.svg"
+              alt="icon-instagram"
+            />
+            <span class="account">@realnathanf</span>
+          </div>
+          <div class="data-container">
+            <h1 class="title--xl">11K</h1>
+            <h3 class="title-m-regular">FOLLOWERS</h3>
+            <div class="staditics-container">
+              <img src="./assets/images/icon-up.svg" alt="icon-up" />
+              <span class="text-s">1099 Today</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card--youtube">
+          <div class="social-container">
+            <img src="./assets/images/icon-youtube.svg" alt="icon-youtube" />
+            <span class="account">Nathan F.</span>
+          </div>
+          <div class="data-container">
+            <h1 class="title--xl">8239</h1>
+            <h3 class="title-m-regular">SUBSCRIBERS</h3>
+            <div class="staditics-container">
+              <img src="./assets/images/icon-down.svg" alt="icon-down" />
+              <span class="text-s">144 Today</span>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="title--xl">Overview - Today</h2>
+
+        <div class="card-small--facebook">
+          <div class="social-container--s">
+            <h3 class="title-m-bold">Page Views</h3>
+            <img src="./assets/images/icon-facebook.svg" alt="icon-facebook" />
+          </div>
+          <div class="staditics-container--s">
+            <h2 class="title--l">87</h2>
+            <div class="staditics-container">
+              <img src="./assets/images/icon-up.svg" alt="icon-up" />
+              <span class="text-s">3%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-small--facebook">
+          <div class="social-container--s">
+            <h3 class="title-m-bold">Likes</h3>
+            <img src="./assets/images/icon-facebook.svg" alt="icon-facebook" />
+          </div>
+          <div class="staditics-container--s">
+            <h2 class="title--l">52</h2>
+            <div class="staditics-container">
+              <img src="./assets/images/icon-down.svg" alt="icon-down" />
+              <span class="text-s">2%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-small--instagram">
+          <div class="social-container--s">
+            <h3 class="title-m-bold">Likes</h3>
+            <img
+              src="./assets/images/icon-instagram.svg"
+              alt="icon-instagram"
+            />
+          </div>
+          <div class="staditics-container--s">
+            <h2 class="title--l">5462</h2>
+            <div class="staditics-container">
+              <img src="./assets/images/icon-up.svg" alt="icon-up" />
+              <span class="text-s">2257%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <div class="card">
       <h1 class="title">Titulo Principal</h1>
       <p class="paragraph">
